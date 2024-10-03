@@ -1,0 +1,109 @@
+/* Reports.css */
+.container {
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: aliceblue;
+    justify-content: space-around;
+  }
+
+  .form-control {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+
+  .label{
+    margin: 15px;
+  }
+  
+  .card {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 600px;
+    width: 100%;
+  }
+  
+  canvas {
+    background-color: #fff;
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-group .btn {
+    padding: 10px;
+    flex-grow: 1;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-report {
+    background-color: #144e52;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .btn-nor {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-report:hover,
+  .btn-nor:hover {
+    opacity: 0.8;
+  }
+  
+  .btn-block {
+    width: auto !important;
+    padding: 15px;
+    background-color: #3b4aa0;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .btn-block:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-down {
+
+    background-color: #144e52;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    flex-grow: 1;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: right;
+    
+  }
+  
+
+  
